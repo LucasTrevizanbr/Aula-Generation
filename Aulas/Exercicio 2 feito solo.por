@@ -7,8 +7,9 @@ programa
 	 escreva("Entre com a sua idade em dias\n")
 	 leia(dia)
 	 ano= dia/365
-	 mes= dia/12
+	 mes= dia/30
 	 escreva("Você tem ",ano," anos, ",mes," me(se)s e ",dia," dias.")
+	 escreva("\nTamo junto")
 	 
 	 
 	 
@@ -20,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 206; 
+ * @POSICAO-CURSOR = 249; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
