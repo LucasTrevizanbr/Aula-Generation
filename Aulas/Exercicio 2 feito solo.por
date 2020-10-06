@@ -7,7 +7,7 @@ programa
 	 escreva("Entre com a sua idade em dias\n")
 	 leia(dia)
 	 ano= dia/365
-	 mes= dia/30
+	 mes= dia/12
 	 escreva("Você tem ",ano," anos, ",mes," me(se)s e ",dia," dias.")
 	 escreva("\nTamo junto")
 	 
