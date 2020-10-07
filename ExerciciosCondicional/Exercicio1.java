@@ -4,7 +4,7 @@ public class Exercicio1 {
 	public static void main(String args[])
 	{
 		Scanner ler = new Scanner(System.in);
-		int n1,n2,n3,maiorn=0;
+		int n1,n2,n3;
 		System.out.printf("Entre com o primeiro número: ");
 		n1= ler.nextInt();
 		System.out.printf("Entre com o segundo número: ");
@@ -12,20 +12,19 @@ public class Exercicio1 {
 		System.out.printf("Entre com o terceiro número: ");
 		n3= ler.nextInt();
 		
-		if(n1>maiorn)
+		if(n1>0 && n1>n2 && n1>n3)
 		{
-		  maiorn= maiorn+n1;
-          if(n2>maiorn)
-          {
-        	  maiorn=maiorn-n1+n2;
-          }
-		  if(n3>maiorn)
-		  {
-			  maiorn=maiorn-n2+n3;
-		  }
+			System.out.printf("O maior valor é:"+n1);
 		}
-		System.out.println("O maior número digitado é: "+maiorn);
+          else if(n2>n1 && n2>n3)
+          {
+        	  System.out.printf("O  maior valor é :"+n2); 
+          }
+          else {
+        	  System.out.printf("O maior valor é :"+n3);
+          }
 		
+		  
 	}
 	
 
