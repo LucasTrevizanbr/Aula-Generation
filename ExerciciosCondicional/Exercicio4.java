@@ -14,10 +14,10 @@ public class Exercicio4 {
 			raiz= Math.sqrt(numero);
 			System.out.printf("O número é par e  sua raiz é: %.2f",raiz);
 		}
-		if(numero%2!=0)
+		else 
 		{
 			pot = Math.pow(numero,2);
-			System.out.println("O número é ímpar e  sua raiz é: "+pot);
+			System.out.println("O número é ímpar e  sua potencia é: "+pot);
 		}
 	
 	}
