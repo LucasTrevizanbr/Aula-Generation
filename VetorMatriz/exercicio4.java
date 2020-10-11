@@ -7,9 +7,10 @@ public class exercicio4 {
 		int[][] matriz1= new int[2][2];
 		int[][] matriz2= new int[2][2];
 		int[][] matriz3= new int[2][2];
+		int[][] matriz4= new int[2][2];
 		int cont,sub,deci;
 		System.out.printf("Digite um número que será uma constante e será somado em todas as matrizes: ");
-		cont=ler.nextInt();
+		cont= ler.nextInt(); 
 		
 			for(int  linha=0;linha<2;linha++)
 			{
@@ -33,6 +34,22 @@ public class exercicio4 {
 				}
 				
 			}
+			for(int linha=0;linha<2;linha++)
+			{
+				for(int coluna=0;coluna<2;coluna++)
+				{
+					matriz3[linha][coluna] = matriz1[linha][coluna] + matriz2[linha][coluna];
+	
+				}
+			}
+			for(int linha=0;linha<2;linha++)
+			{
+				for(int coluna=0;coluna<2;coluna++)
+				{
+					matriz4[linha][coluna] = matriz1[linha][coluna] - matriz2[linha][coluna];
+	
+				}
+			}
 			
 			System.out.println("Escolha o que deseja fazer");
 			System.out.println("Se você deseja somar as duas matrizes, digite 1");
@@ -48,15 +65,23 @@ public class exercicio4 {
 				{
 					for(int coluna =0;coluna<2;coluna++)
 					{
-						
+						System.out.printf("[%d]",matriz3[linha][coluna]);	
 					}
+					System.out.println(""); 
 				}
-				System.out.println();
+			
 				break;
 			case 2:
+				for(int  linha=0;linha<2;linha++)
 				{
-				
+					for(int coluna =0;coluna<2;coluna++)
+					{
+						System.out.printf("[%d]",matriz4[linha][coluna]);	
+					}
+					System.out.println(""); 
 				}
+				
+				
 				break;	
 			case 3:
 				{
@@ -68,19 +93,20 @@ public class exercicio4 {
 					{
 						for(int coluna =0;coluna<2;coluna++)
 						{
-							System.out.printf("\t %d \t",matriz1[linha][coluna]);
-						}
+							System.out.printf("[%d]",matriz1[linha][coluna]);
+					    }
+						System.out.println();
 					}
-					System.out.println();
 					
 					for(int  linha=0;linha<2;linha++)
 					{
 						for(int coluna =0;coluna<2;coluna++)
 						{
-							System.out.printf("\t %d \t",matriz2[linha][coluna]);
+							System.out.printf("[%d]",matriz2[linha][coluna]);
 						}
+						System.out.println("");
 					}
-					System.out.println();
+					
 				}
 			    
 			}
