@@ -32,7 +32,7 @@ public class Vendedor extends Pessoa {
 		this.valorVendas = valorVendas;
 	}
 	public double getComissao() {
-		comissao = valorVendas/10;
+		comissao = (valorVendas*comissao)/100;
 		return comissao;
 	}
 	public void setComissao(double comissao) {
