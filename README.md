@@ -13,6 +13,13 @@
   </ul>
 </body>
 
+## Pasta CRUD LojaDeGames
+<body>
+  <p>
+    Um CRUD de uma loja de games feito com Java e Spring e sua DER
+    </P>
+</body>
+
 ## Pasta de Exercícios de banco de dados
 <body>
   <p>
