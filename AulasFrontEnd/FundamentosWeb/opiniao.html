@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua opiniao</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    
+    <ul class = "mb-50" id = "menu">
+        <li>
+            <a href="index.html">Home</a>   
+        </li>
+        <li>
+            <a href="contato.html">Fale comigo</a>
+        </li>
+        <li>
+            <a href="opiniao.html">De sua opinião sobre</a>
+        </li>
+    </ul>
+
+    <h1>Discussão</h1>
+
+    <p>
+        É óbvio que você pode,e provavelmente vai, discordar da minha opinião, afinal de contas você é 
+        um ser humano individual que pensa por conta própria(assim espero). Então se por N motivos
+        você acha que eu estou errado ou quer acrescentar, ou apontar algo, deixe seu comentário com suas
+        opiniões
+    </p>
+    <img src="assets/img/feedback.png" alt="imagem ilustrada de duas pessoas conversando"><br>
+
+    <br>
+
+    <label for="nickname">Nome:</label><br>
+    <input type="text" id= "nickname" onkeyup="validaNickname()">
+    <div id = "txtNickname"></div>
+    <br>
+    <label for="opiniao">Opinião:</label><br>
+    <textarea name="opiniao" id="opiniao" cols="60" rows="10" onkeyup="validaOpiniao()"></textarea>
+    <div id = "txtOpiniao"></div>
+    <br>
+    <button class = "mb-50" onclick="enviarOpiniao()">Enviar</button>
+    
+    <hr>
+    
+    <footer>
+        <div class = "container">
+            <a href="https://github.com/LucasTrevizanbr" target = "_blank">
+                <img class= "tm-social p-30" src="assets/img/github.png" alt="Logo github">
+            </a>
+
+           <a href="https://www.linkedin.com/in/lucas-silva-trevizan-1191b51a7/" target = "_blank">
+            <img class= "tm-social p-30" src="assets/img/linkedin.png" alt="Logo linkedin">
+           </a>
+            
+           <a href="https://www.instagram.com/trevizanlucas/" target = "_blank">
+            <img class= "tm-social p-30" src="assets/img/instagram.png" alt="Logo instagram">
+           </a>
+            
+        </div>
+       
+        <p class = "center">
+            Todos os direitos reservados: Lucas Trevizan &copy;
+        </p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
