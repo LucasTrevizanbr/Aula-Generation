@@ -37,6 +37,17 @@
     </P>
 </body>
 
+## Pasta de Aulas de Frontend
+<body>
+<p>Essa pasta contém exerecicios fundamentais do front.</p>
+  <ul>
+    <li>Exercicios HTML 5
+      <li>Exercicios CSS 3
+        <li>Exercicios de JavaScript
+          <li>Exercicios de BootStrap    
+  </ul>
+</body>
+
 ## Pasta de certificados
 <body>
   <p>Alguns certificados que adquiri paralelamente ao Bootcamp da Generation.</p>
