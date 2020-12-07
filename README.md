@@ -3,7 +3,7 @@
 <p>Neste repositório você vai encontrar as atividades que realizei durante o <strong>BootCamp da Generation</strong> </p>
 </body>
 
-## Pasta de exercicios
+## Pasta de exercicios de lógica da programação
 <body>
 <p>Na pasta de exercicios existem outras pastas especificando quais os tipos de exercícios foram realizados.</p>
   <ul>
@@ -11,6 +11,13 @@
       <li>Exercicios de logica básica realizados em Java
         <li>Exercicios de Vetores, Matrizes e Poo
   </ul>
+</body>
+
+## Pasta de Exercícios de banco de dados
+<body>
+  <p>
+    Exercícios com comandos de Sql, inners join, insert, create etc....
+    </P>
 </body>
 
 ## Pasta de certificados
