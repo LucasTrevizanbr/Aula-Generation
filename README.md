@@ -16,8 +16,11 @@
 ## Pasta CRUD LojaDeGames
 <body>
   <p>
-    Um CRUD de uma loja de games feito com Java e Spring e sua DER
-    </P>
+    Um CRUD de uma loja de games feito com Java e Spring e sua DER, esse exercício foi apenas para retificar as práticas de Spring.
+ </P>
+<p>
+  Tem outro repositório no meu github chamada "ProjetoBlogPessoal", ele é um blog construido desde o backend até o front por mim, com todas as suas branchs versionadas 
+</p>
 </body>
 
 ## Pasta de Exercícios de banco de dados
